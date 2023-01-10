@@ -1,0 +1,120 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.input-search{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+#search-btn{
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: bold;
+    background-color: #0a6b95;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    margin: 5px;
+}
+.sitelinks ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+.sitelinks li{
+    display: inline-block;
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(200, 200, 100, 1);
+}
+.sitelinks a {
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.sitelinks a:hover{
+    background: #353640;
+}
+.images{
+    float: right;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.all-parg{
+    padding: 10px;
+    font-size: 28px;
+    font-family: Times;
+}
+
+
+
+
+/* the footer  */
+.homelinks {
+    background: black;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    
+}
+.homelinks ul li{
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+    padding: 5px;
+}
+.homelinks a {
+    text-decoration: none;
+    color: #fff;
+}
+.homelinks a:hover {
+    background: #5bc9c2;
+}
+.contact-us {
+    
+    position: absolute;
+    right: 30px;
+}  
+h3 {
+    color: #fff;
+    margin-right: 20px ;
+    padding: 3px;
+    margin-bottom: 5px;
+    border: #5bc9c2 solid ;
+}
+h1 {
+    text-align: center;
+    font-size: bold;
+}
+#address{
+    position: absolute;
+    right: 40%;
+    left: 35%;
+    color: #fff;
+}
+#logo{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid;
+    background: url(Images/logo2.png);
+    background-size: cover;
+    padding: 1px;
+}
