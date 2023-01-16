@@ -1,0 +1,156 @@
+body{
+    background: white;
+}
+.ourAddress {
+    position: absolute;
+    float: right;
+    right: 10%;
+    top: 30%;
+}
+
+.ourAddress_office{
+    padding-bottom: 10px ;
+
+}
+
+.ourAddress_call{
+    padding-bottom: 10px ;
+}
+
+@media screen and (max-width: 600px) {
+    .ourAddress{
+        font-size: 0;
+    }
+    #address{
+        font-size: 0;
+    }    
+    input{
+        width: 600px;
+    }
+    
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%; /* half width */
+    padding: 12px; /* Some padding */
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=email], select, textarea {
+    width: 50%; /* half width */
+    padding: 12px; /* Some padding */
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    width: 50%;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 1000;
+    }
+    
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+    
+    /* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} 
+
+
+
+
+
+
+
+
+
+
+.homelinks {
+    background: black;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    
+}
+.homelinks ul li{
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+    padding: 5px;
+}
+.homelinks a {
+    text-decoration: none;
+    color: wheat;
+}
+.homelinks a:hover {
+    background: #5bc9c2;
+}
+.contact-us {
+    
+    position: absolute;
+    right: 30px;
+}  
+h3 {
+    color: #fff;
+    margin-right: 20px ;
+    padding: 3px;
+    margin-bottom: 5px;
+    font-size: 2vw;
+    border: #5bc9c2 solid ;
+}
+h1 {
+    text-align: center;
+    font-size: bold;
+}
+#address{
+    position: absolute;
+    right: 40%;
+    left: 35%;
+    color: #fff;
+}
+#logo{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    border: solid;
+    background: url(logo2.png);
+    background-size: cover;
+    padding: 1px;
+}
+.blue-color{
+    color: blue;
+    padding: 5px;
+
+}
+.instagram-icon{
+    color: red;
+    padding: 5px;
+
+}
+.linkedin-icon{
+    color: rgba(9, 107, 193, 0.592);
+    padding: 5px;
+}

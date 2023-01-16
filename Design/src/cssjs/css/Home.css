@@ -28,21 +28,22 @@ body {
 }
 #ertale{
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-family: Arial;
     margin-top: 13%;
+    color: aliceblue;
 }
 .welcome{
     
     text-align: center;
-    font-size: 64px;
+    font-size: 5vw;
     font-family: Times New Roman;
     font-weight: bold;
     color: #ffffff;
 }
 #logo{
-    width: 120px;
-    height: 80px;
+    width: 8%;
+    height: 8%;
     border-radius: 50%;
     border: solid;
     background: url(Images/logo2.png);
@@ -51,3 +52,5 @@ body {
     left: 120px;
     top: 130px;
 }
+
+

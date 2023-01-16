@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="cssfile/contact.css"> -->
+    <link rel="stylesheet" href="cssjs/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact</title>
 </head>
@@ -16,37 +16,43 @@
             This tech and business powerhouse is home to a diverse population of people from various cultures.</P>
     </section>
 
-    <section class="ourcontact">
-        <p>Office Address</p>
-        <p>4 kilo, AAU</p>
-
-        <p>Call Us:</p>
-        <p>+251-908-293-563</p>
-
-        <p>Message Us:</p>
-        <p>hordofahaile7@gmail.com</p>
+    <section class="ourAddress">
+        <div class="ourAddress_office">
+            <p>Office Address</p>
+            <p>4 kilo, AAU</p>
+        </div>
+        <div class="ourAddress_call">
+            <p>Call Us:</p>
+            <p>+251-908-293-563</p>
+        </div>
+        <div class="ourAddress_message">
+            <p>Message Us:</p>
+            <p>hordofahaile7@gmail.com</p>
+        </div>
 
     </section>
-        <form action="">
-        <label for="name">Name:</label>
-        <input type="text"  name="name" id="name" placeholder="Enter your full name"><br>
+    <div class="container">
+        <form action="action_page.php">
+            <label for="name">Name:</label><br>
+            <input type="text"  name="name" id="name" placeholder="Enter your full name" class="container_name"><br>
 
-        <label for="nameemail">Email:</label>
-        <input type="email"  name="email" id="nameemail"><br>
+            <label for="nameemail">Email:</label><br>
+            <input type="email" placeholder="Enter your Email" name="email" id="nameemail"><br>
 
-        <label for="namephone">Phone:</label>
-        <input type="text"  name="phone" placeholder="write your phone number" id="namephone"><br>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <label for="namecity">City:</label>
-        <input type="text"  name="city" placeholder="your resedence" id="namecity"><br>
+            <label for="namephone">Phone:</label><br>
+            <input type="text"  name="phone" placeholder="write your phone number" id="namephone"><br>
 
-        <label for="namemessage">Message:</label><br>
-        <textarea name="" id="namemessage"></textarea><br>
+            <label for="namecity">City:</label><br>
+            <input type="text"  name="city" placeholder="your resedence" id="namecity"><br>
 
-        <input type="submit" name="submit" value="submit">   <br> 
-    </form>
-    <hr>
+            <label for="namemessage">Message:</label><br>
+            <textarea name="" id="namemessage"></textarea><br>
 
+            <input type="submit" name="submit" value="submit">   <br> 
+        </form>
+    </div>
+    
+    <br>
     <footer>
         <section class="homelinks">
             <ul>
@@ -69,15 +75,16 @@
                 <p>Addis Ababa, Ethiopia</p>
                 <p>phone: +251908293563</p>
                 <p>email: hordofahaile7@gmail.com</p>
+                <a href="Home.html"><img src="Images/logo2.png" alt="logo of the company" id="logo"> </a>
             </div>
-            <nav class="contact-us">
-                <p>CONTACT-US</p>
-                 <a href="https://twitter.com/HaileAdugna7"><i class="fa fa-twitter" >twitter</i></a>
+            <section class="contact-us">
+                <h3>CONTACT-US</h3>
+                 <a href="https://twitter.com/HaileAdugna7"><i class="fa fa-twitter fa-2x blue-color"  ></i></a>
                 <br>
-                <a href="https://github.com/haileadugna"><i class="fa fa-instagram" >instagram</i></a>
+                <a href="https://github.com/haileadugna"><i class="fa fa-instagram fa-2x instagram-icon"></i></a>
                 <br>
-                <a href="https://www.linkedin.com/in/haile-adugna-653139256/" ><i class="fa fa-linkedin">linkedin</i></i></a>
-            </nav>
+                <a href="https://www.linkedin.com/in/haile-adugna-653139256/" ><i class="fa fa-linkedin fa-2x linkedin-icon"></i></a>
+            </section>
         </section>
     </footer>
 </body>

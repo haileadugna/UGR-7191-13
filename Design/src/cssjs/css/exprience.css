@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.expriences{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.expriences_vidoe{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+
+}
+
+.expriences_audio{
+    width: 40%;
+    padding-top: 10%;
+    margin-left: 10%;
+    text-align: center;
+
+}
+.someplaces{
+    display: flex;
+    padding: 10px;
+
+}
+.someplaces_image_1{
+    width: 90%;
+    height: auto;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.someplaces_image_2{
+    width: 90%;
+    height: auto;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    #address{
+        font-size: 0;
+    }
+}
+
+/* the footer  */
+.homelinks {
+    background: black;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    
+}
+.homelinks ul li{
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+    padding: 5px;
+}
+.homelinks a {
+    text-decoration: none;
+    color: wheat;
+}
+.homelinks a:hover {
+    background: #5bc9c2;
+}
+.contact-us {
+    
+    position: absolute;
+    right: 30px;
+}  
+h3 {
+    color: #fff;
+    margin-right: 20px ;
+    padding: 3px;
+    margin-bottom: 5px;
+    font-size: 2vw;
+    border: #5bc9c2 solid ;
+}
+h1 {
+    text-align: center;
+    font-size: bold;
+}
+#address{
+    position: absolute;
+    right: 40%;
+    left: 35%;
+    color: #fff;
+}
+#logo{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    border: solid;
+    background: url(Images/logo2.png);
+    background-size: cover;
+    padding: 1px;
+}
+.blue-color{
+    color: blue;
+    padding: 5px;
+
+}
+.instagram-icon{
+    color: red;
+    padding: 5px;
+
+}
+.linkedin-icon{
+    color: rgba(9, 107, 193, 0.592);
+    padding: 5px;
+}
