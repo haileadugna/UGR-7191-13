@@ -1,0 +1,68 @@
+.homelinks {
+    background: black;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    
+}
+.homelinks ul li{
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+    padding: 5px;
+}
+.homelinks a {
+    text-decoration: none;
+    color: wheat;
+}
+.homelinks a:hover {
+    background: #5bc9c2;
+}
+.contact-us {
+    
+    position: absolute;
+    right: 30px;
+}  
+h3 {
+    color: #fff;
+    margin-right: 20px ;
+    padding: 3px;
+    margin-bottom: 5px;
+    border: #5bc9c2 solid ;
+    font-size: 2vw;
+}
+h1 {
+    text-align: center;
+    font-size: bold;
+}
+#address{
+    position: absolute;
+    right: 40%;
+    left: 35%;
+    color: #fff;
+}
+#logo{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border: solid;
+    background: url(logo2.png);
+    background-size: cover;
+    padding: 2px;
+
+}
+.blue-color{
+    color: blue;
+    padding: 5px;
+
+}
+.instagram-icon{
+    color: red;
+    padding: 5px;
+
+}
+.linkedin-icon{
+    color: rgba(9, 107, 193, 0.592);
+    padding: 5px;
+}
