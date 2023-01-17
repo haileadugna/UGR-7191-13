@@ -75,7 +75,8 @@ h1{
     width: 50%;
     height: 500px;
     padding: 10px;
-
+    /* object-fit: cover; */
+    /* object-position: bottom; */
 }
 @media only screen and (max-width: 600px) {
     .content_field_images {
@@ -99,7 +100,7 @@ h2{
     padding: 3%;
     padding-top: 1%;
     font-size: 1.3em;
-
+    /* font-family: Times; */
 }
 
 
